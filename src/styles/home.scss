@@ -29,8 +29,8 @@ body {
     position: absolute;
     width: 2110px;
     height: 1600px;
-    top: calc((1vh * 100) / 2);
-    left: calc((1vh - 2110px) / 2);
+    top: calc(((1vh * 100) - 1600px) / 2);
+    left: calc((100vw - 2110px) / 2);
     content-visibility: auto;
 }
 
@@ -67,3 +67,27 @@ body {
 
     }
 }
+
+.custom-button {
+    padding: 0;
+    background-color: none;
+    box-shadow: none;
+    border: none;
+
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      background-color: black;
+
+      svg {
+        color: white;
+      }
+    }
+
+    svg {
+      stroke-width: 1px;
+    }
+  }

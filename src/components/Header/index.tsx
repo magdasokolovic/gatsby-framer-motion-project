@@ -8,7 +8,7 @@ type Props = {
 }
 export default function Header({view, toggleView}: Props) {
   return <header className="header-container">
-      <button onClick={() =>toggleView(!view)}>
+      <button className="custom-button" onClick={() =>toggleView(!view)}>
         {view ? <Columns/> : <Grid/>}
       </button>
   </header>

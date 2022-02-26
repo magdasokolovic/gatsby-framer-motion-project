@@ -1,17 +1,16 @@
 .header-container {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 1.6rem;
-    top: 1.6rem;
-    z-index: 25;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 1.6rem;
+  top: 1.6rem;
+  z-index: 25;
 
-    button {
+  .custom-button {
     padding: 0;
-    background-color:none;
+    background-color: none;
     box-shadow: none;
     border: none;
-
 
     display: flex;
     padding: 10px;
@@ -19,19 +18,15 @@
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
     &:hover {
+      background-color: black;
 
-        background-color: black;
-
-        svg{
-            color: white;
-        }
+      svg {
+        color: white;
+      }
     }
 
     svg {
-        stroke-width:1px;
+      stroke-width: 1px;
     }
+  }
 }
-}
-
-
-
