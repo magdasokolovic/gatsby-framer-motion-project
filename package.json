@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-framer-motion-tutorial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-framer-motion-tutorial",
+  "author": "Magda Sokol(...)",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^4.8.0",
+    "gatsby-plugin-sass": "^5.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "typescript": "^4.5.5"
+  }
+}
